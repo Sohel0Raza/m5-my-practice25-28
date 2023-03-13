@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl font-bold text-center mt-12"><span class="text-amber-700">BD</span> <span class="text-green-700">FASHION</span></h1>
+    </header>
+    <main>
+        <section class="mt-8 mb-3 w-9/12 mx-auto">
+            <h2 class="text-5xl font-bold text-sky-700 mb-5">Jackets</h2>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="drop-shadow-xl bg-sky-100 p-5 rounded">
+                    <img class="rounded bg-white drop-shadow-xl p-5" src="./images/jacket-4.png" alt="" srcset="">
+                    <h4 class="mt-4 pl-5 text-3xl font-semibold text-amber-700">Price: $<span id="jacket-1">300</span></h4>
+                    <p class="pl-5 txet-2xl font-semibold">Discount: <span id="discount">30</span> %</p>
+                    <button id="First-jacket-btn" class="bg-green-500 hover:bg-green-700 px-5 py-2 rounded mt-5 ml-5 text-white font-semibold">Buy Now</button>
+                </div>
+                <div class="drop-shadow-xl bg-sky-100 p-5 rounded">
+                    <img class="rounded bg-white drop-shadow-xl p-5" src="./images/jacket-5.png" alt="" srcset="">
+                    <h4 class="mt-4 pl-5 text-3xl font-semibold text-amber-700">Price: $<span id="jacket-2">700</span></h4>
+                    <p class="pl-5 txet-2xl font-semibold">Use promo code for <span id="discount-2">20</span>% Discount</p>
+                    <input id="input-field" class="ml-5 mt-2 px-2 outline-0 rounded bg-white drop-shadow-xl" type="text">
+                    <button id="jacket-2-btn" class="bg-green-500 hover:bg-green-700 px-5 py-2 rounded mt-2 ml-5 text-white font-semibold">Buy Now</button>
+                </div>
+                <div class="drop-shadow-xl bg-sky-100 p-5 rounded">
+                    <img class="rounded bg-white drop-shadow-xl p-5" src="./images/jacket-6.png" alt="" srcset="">
+                    <h4 class="mt-4 pl-5 text-3xl font-semibold text-amber-700">Price: $<span id="jacket-3">500</span></h4>
+                    <p class="pl-5 txet-2xl font-semibold">Discount: <span id="discount-3">10</span> %</p>
+                    <button id="jacket-3-btn" class="bg-green-500 hover:bg-green-700 px-5 py-2 rounded mt-5 ml-5 text-white font-semibold">Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/utilities.js"></script>
+    <script src="./js/price.js"></script>
+    <script src="./js/price-2.js"></script>
+    <script src="./js/price-3.js"></script>
+</body>
+</html>
